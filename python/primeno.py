@@ -1,4 +1,6 @@
 # BEGINNING OF CODE
+
+
 nom = int(input("ENTER A NUMBER: "))
 if nom > 1:
     for i in range(2, nom):
@@ -9,4 +11,7 @@ if nom > 1:
         print(nom, "IS A PRIME NUMBER")
 else:
     print(nom, "IS A PRIME NUMBER")
+    
+    
 #END OF CODE
+#This code was written by arnavk09 for HacktoberFest 2020
