@@ -14,6 +14,10 @@ q='y'
 while q=='y':
     x=int(input('enter the first number: '))
     y=int(input('enter the second number: '))
+
+    if x<y:
+        x,y=y,x
+        
     print('''Enter 1 for additon
 Enter 2 for subraction
 Enter 3 for multiplication
