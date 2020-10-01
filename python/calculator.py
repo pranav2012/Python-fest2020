@@ -1,4 +1,7 @@
+# Importing modules
 import math
+
+# defining functions
 def add(s,t):
     print('sum of',s,'and',y,'is',s+t)
 def sub(s,t):
@@ -9,7 +12,7 @@ def div(s,t):
     print('quotient of',s,'and',y,'is',s/t)
     
 
-
+# Running while loop
 q='y'
 while q=='y':
     x=int(input('enter the first number: '))
@@ -19,10 +22,10 @@ while q=='y':
         x,y=y,x
         
     print('''Enter 1 for additon
-Enter 2 for subraction
-Enter 3 for multiplication
-Enter 4 for division
-    ''')
+            Enter 2 for subraction
+            Enter 3 for multiplication
+            Enter 4 for division
+    '     ''')
     a=int(input('what operation do you want? '))
     if a==1:
         add(x,y)
@@ -35,3 +38,5 @@ Enter 4 for division
     else:
         print('Operation not defined ')
     q=str(input('do you want to continue enter y: '))
+    
+# ==== CODE ENDED ====
