@@ -4,7 +4,7 @@
 
 * Contains Menu-driven Program :clipboard:
 * Python is used which is easy to use, implement, handle & debug :hearts:
-* User friendly which uses console, just chose 1, 2, 3, or whatever the option is satisfied :one: :two: :three: :infinity:
+* User friendly which uses console, just chose 1, 2, 3, or whatever the option is :one: :two: :three: :infinity:
 * No use of database, no data leak :tickets:
 
 
