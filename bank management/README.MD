@@ -12,7 +12,7 @@
 
 - [ ] No need to install any extra library :luggage:
 
-- [ ] Just run [nitin bank.py]() and enjoy !!  :handshake: :man_dancing: :woman_dancing:
+- [ ] Just run [nitin bank.py](https://github.com/nitin30kumar/Python-fest2020/blob/master/bank%20management/nitin%20bank.py) and enjoy !!  :handshake: :man_dancing: :woman_dancing:
 
 ## How to run it ? :computer:
 
