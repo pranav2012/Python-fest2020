@@ -21,19 +21,19 @@ while q=='y':
     if x<y:
         x,y=y,x
         
-    print('''Enter 1 for additon
-            Enter 2 for subraction
-            Enter 3 for multiplication
-            Enter 4 for division
+    print('''Enter + for additon
+            Enter - for subraction
+            Enter * for multiplication
+            Enter / for division
     '     ''')
-    a=int(input('what operation do you want? '))
-    if a==1:
+    a=input('what operation do you want? ')
+    if a=='+':
         add(x,y)
-    elif a==2:
+    elif a=='-':
         sub(x,y)
-    elif a==3:
+    elif a=='*':
         mul(x,y)
-    elif a==4:
+    elif a=='/':
         div(x,y)
     else:
         print('Operation not defined ')
